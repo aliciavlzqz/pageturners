@@ -1,0 +1,72 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+body{
+  background-color: rgb(189, 162, 136, .4);
+}
+
+#banner{
+  max-width: 100%;
+  height: auto;
+  opacity: .8;
+}
+
+#theRequestSection{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+input{
+  position: relative;
+}
+
+button{
+  position: absolute;
+  background-color: rgb(201, 179, 151, .5);
+  border: none;
+  border-radius: 5px;
+  margin-top: 5.5%;
+  margin-right: -20%;
+}
+
+#errorMessage{
+  font-size: 2rem;
+  text-align: center;
+  color: red;
+  display: none;
+}
+
+#theResults{
+text-align: center;
+}
+
+@media screen and (max-width: 1020px) and (min-width: 90px) {
+  button{
+    position: absolute;
+    margin-top: 10%;
+  margin-right: -22%;
+
+  }
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
